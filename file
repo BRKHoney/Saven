@@ -1,0 +1,32 @@
+DevOps Engineer System Test
+Test 1: Java web application deployment using Jenkins and shell scripting in Tomcat
+VM IP: 192.168.192.159
+Username:-root
+Password:-saven123
+
+Jenkins IP: 192.168.192.159
+Jenkins Port: 8089
+Jenkins username: saven
+Password: saven123
+
+Information:
+1.	AWS Code Commit Repository URL:  https://git-codecommit.us-west-1.amazonaws.com/v1/repos/login-cc
+2.	Source Code: Please ask HR to give source code
+3.	Repository Credentials: 
+i)	Username: test1-at-149651745982
+ii)	Password:  F+NAuTsGyZQbnwtjtKZm6V0PA5n2i5TaNCEpR/1xax8=
+Tasks:
+NOTE - Both tasks are Mandatory
+Task A:
+1.	Push the provided source code in the repository
+2.	Create the Jenkins job to compile and create war file using maven
+3.	Deploy the generated war file in the tomcat
+Task B:
+1.	Create the Jenkins job which will execute automatically at every 10 minutes
+2.	Job has to monitor whether tomcat is running or not
+3.	Also, it has to check whether deployed web application is giving correct response or not
+4.	Request URL for the web application: <HOST_IP>:<PORT_NUMBER>/LoginServices
+5.	Correct Response: “Login MicroService is up and running”
+6.	If any one of the above two tests are failed, job has to send email notification to the recipient’s email id.
+7.	Recipients email id: “ketan.vilasdeshmukh@saven.in”
+
